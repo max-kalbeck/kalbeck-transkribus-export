@@ -7,6 +7,9 @@ Automagically export and upconvert data from [Transkribus](https://readcoop.eu/)
 * create a virtual environment `python -m venv venv`
 * update pip to latest version and install needed python packages `pip install -U pip && pip install -r requirements.txt`
 * copy/rename `dummy.env` to `secret.env` and add your Transkribus credentials
+```sh
+cp dummy.env secret.env
+``
 
 ## export the data
 
