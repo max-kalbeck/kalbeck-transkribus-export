@@ -1,5 +1,10 @@
 # Kalbeck Transkribus Export  transkribus-export
 
+
+> [!CAUTION]
+> The default export workflow is broken. So you'll need to manually export TEIs (page2tei) via app.transkribus (lb instead of l) and copy the downloaded folder into tei
+
+
 Automagically export and upconvert data from [Transkribus](https://readcoop.eu/) collections into TEI/XML using [page2tei](https://github.com/dariok/page2tei) from @dariok and [acdh-transkribus-pyutils](https://github.com/acdh-oeaw/acdh-transkribus-utils).
 
 ## initial (local) set up
